@@ -1,5 +1,7 @@
 import random
 
+options = ["rock","paper","scissors"]
+
 while True:
     my_answer = input("choose rock paper or scissors ")
     my_answer = my_answer.lower()
@@ -7,11 +9,11 @@ while True:
     if my_answer == "quit":
         break
 
-    if my_answer != "rock" and my_answer != "paper" and my_answer != "scissors":
+    if my_answer not in options:
         print("please choose rock paper scissors: ")
         continue
 
-    computer_answer = random.choice(["rock","paper","scissors"])
+    computer_answer = random.choice(options)
     print(f"computer chose {computer_answer}")
 
     if my_answer == computer_answer:
