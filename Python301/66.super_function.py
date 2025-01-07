@@ -15,6 +15,7 @@ class HouseCat(Animal):
         print("meow")
         
     def eat(self):
+        #this calls method of parent class
         super().eat()
         print("i'm eating salmon")
         
