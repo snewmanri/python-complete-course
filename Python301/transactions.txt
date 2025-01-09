@@ -1,0 +1,4 @@
+deposited 10.0 		new balance is 60.5 
+withdrew 5.0 		new balance is 55.5 
+deposited 50.0 		new balance is 100.5 
+withdrew 60.0 		new balance is 40.5 
